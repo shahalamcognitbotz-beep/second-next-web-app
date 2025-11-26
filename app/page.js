@@ -8,7 +8,7 @@ export default async function Home({searchParams,params})
   
     return (
       <div>
-        <h1>Technical agency</h1>
+        <h1 style={{background:"pink"}}>Technical agency</h1>
         <ComponentsPage/>
         <p><Link href="/blogs">Blogs</Link></p>
         <p><Link href="/about">About</Link></p>
